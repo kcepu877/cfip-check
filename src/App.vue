@@ -28,12 +28,12 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-light" href="https://t.me/kcepu877_bot">
+                <a class="button is-light" href="https://t.me/kcepu_bot">
                   <strong>{{ $t('nav.contact') }}</strong>
                 </a>
                 
                 <button class="button is-light" @click="toggleDarkMode">
-                  {{ isDarkMode ? '🌞' : '🌙' }}
+                  {{ isDarkMode ? 'TERANG' : 'GELAP' }}
                 </button>
               </div>
             </div>
