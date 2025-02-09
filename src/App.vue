@@ -20,7 +20,7 @@
               {{ $t('nav.home') }}
             </a>
 
-            <a class="navbar-item" href="https://api.ndeso.xyz">
+            <a class="navbar-item" href="https://t.me/seaker877">
               {{ $t('nav.github') }}
             </a>
           </div>
@@ -105,7 +105,7 @@
         <div class="content has-text-centered">
           <p>{{ $t('footer.description') }}</p>
           <p>
-            <a href="https://api.ndeso.xyz" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/seaker877" target="_blank" rel="noopener noreferrer">
               {{ $t('footer.viewOnGithub') }}
             </a>
           </p>
