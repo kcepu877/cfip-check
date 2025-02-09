@@ -66,21 +66,21 @@
             <br />
             <article class="message is-dark">
               <div class="message-header">
-                <p>{{ $t('main.usage') }}</p>
+                <p>MAPS</p>
               </div>
               <div class="message-body">
-                <p>{{ $t('main.usageText') }}</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="column">
-            <div v-if="isLoading" class="notification is-info">
+                <div v-if="isLoading" class="notification is-info">
               {{ $t('result.loading') }}
             </div>
             <div v-else-if="errorMessage" class="notification is-danger">
               {{ errorMessage }}
             </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="column">
+        
             <template v-else-if="Object.keys(filteredData).length > 0">
               <label class="label">{{ $t('result.info') }}</label>
               <div ref="mapContainer" style="height: 300px; margin-bottom: 20px;"></div>
