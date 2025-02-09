@@ -28,7 +28,7 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-light" href="https://t.me/kcepu_bot">
+                <a class="button is-light" href="https://t.me/kcepu877_bot">
                   <strong>{{ $t('nav.contact') }}</strong>
                 </a>
                 
