@@ -52,7 +52,7 @@
               <div class="field">
                 <label class="label">{{ $t('main.ip') }}</label>
                 <div class="control">
-                  <input class="input" type="text"apicheck.kere.us.kg:443"
+                  <input class="input" type="text" :placeholder="$t('main.ipPlaceholder')"
                     v-model="servDomain">
                 </div>
               </div>
