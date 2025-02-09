@@ -4,7 +4,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://t.me/seaker877">
-            <strong>EDtunnel</strong>
+            <strong>API-CHECK NDESO</strong>
           </a>
 
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -20,7 +20,7 @@
               {{ $t('nav.home') }}
             </a>
 
-            <a class="navbar-item" href="https://github.com/6Kmfi6HP/EDtunnel">
+            <a class="navbar-item" href="https://api.ndeso.xyz">
               {{ $t('nav.github') }}
             </a>
           </div>
