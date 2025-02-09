@@ -33,7 +33,7 @@ export const messages = {
         }
       },
       footer: {
-        description: 'CF IP Remote Check by EDtunnel.',
+        description: 'CF IP Remote Check by NDESO.',
         viewOnGithub: 'View on GitHub',
       },
     },
@@ -71,7 +71,7 @@ export const messages = {
         }
       },
       footer: {
-        description: 'CF IP 远程检测由 EDtunnel 提供。',
+        description: 'CF IP 远程检测由 NDESO 提供。',
         viewOnGithub: '在 GitHub 上查看',
       },
     },
