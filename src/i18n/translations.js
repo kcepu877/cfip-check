@@ -7,7 +7,7 @@ export const messages = {
       },
       main: {
         title: 'CF IP Remote Check',
-        ip: 'IP',
+        ip: 'IP:PORT',
         ipPlaceholder: 'Enter server domain or ip',
         tls: 'TLS',
         host: 'Host',
