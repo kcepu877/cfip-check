@@ -3,7 +3,7 @@
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://t.me/edtunnel">
+          <a class="navbar-item" href="https://t.me/seaker877">
             <strong>EDtunnel</strong>
           </a>
 
@@ -28,12 +28,10 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-light" href="https://t.me/edtunnel_chat">
+                <a class="button is-light" href="https://t.me/kcepu_bot">
                   <strong>{{ $t('nav.contact') }}</strong>
                 </a>
-                <button class="button is-light" @click="toggleLanguage">
-                  {{ currentLanguage === 'en' ? '🇨🇳' : '🇺🇸' }}
-                </button>
+                
                 <button class="button is-light" @click="toggleDarkMode">
                   {{ isDarkMode ? '🌞' : '🌙' }}
                 </button>
@@ -126,7 +124,7 @@
         <div class="content has-text-centered">
           <p>{{ $t('footer.description') }}</p>
           <p>
-            <a href="https://github.com/6Kmfi6HP/EDtunnel" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.ndeso.xyz" target="_blank" rel="noopener noreferrer">
               {{ $t('footer.viewOnGithub') }}
             </a>
           </p>
