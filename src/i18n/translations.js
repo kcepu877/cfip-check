@@ -2,7 +2,7 @@ export const messages = {
     en: {
       nav: {
         home: 'Home',
-        github: 'GitHub',
+        github: 'Telegram',
         contact: 'Contact',
       },
       main: {
@@ -12,11 +12,10 @@ export const messages = {
         tls: 'TLS',
         host: 'Host',
         hostPlaceholder: 'Enter host must same sni in cf',
-        submit: 'Submit',
+        submit: 'CHECK',
         checking: 'Checking...',
-        usage: 'Usage',
-        usageText: 'This is a CF IP remote check tool. Enter the server domain or IP, select the TLS option, and enter the host (which must be the same as SNI in CF) to proceed with the check. Proxy IP validation conditions: 1) Origin port must be 443; 2) Reverse being true means the requested IP matches the IP obtained from /cdn-cgi/trace.',
-      },
+        usage: 'Ketentuan',
+        usageText: 'Ini adalah alat pemeriksaan jarak jauh CF IP. Masukkan domain atau IP server, untuk melanjutkan pemeriksaan. Ketentuan validasi IP proxy: 1. IP:PORT (192.186.1.1:443); 2. Kebalikan menjadi benar berarti IP yang diminta cocok dengan IP yang diperoleh dari /cdn-cgi/trace.'},
       result: {
         info: 'INFO',
         loading: 'Checking, please wait...',
@@ -34,7 +33,7 @@ export const messages = {
       },
       footer: {
         description: 'CF IP Remote Check by NDESO.',
-        viewOnGithub: 'View on GitHub',
+        viewOnGithub: 'View on Telegram',
       },
     },
     zh: {
