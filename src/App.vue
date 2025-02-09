@@ -57,26 +57,7 @@
                 </div>
               </div>
 
-              <div class="field">
-                <label class="label">{{ $t('main.tls') }}</label>
-                <div class="control">
-                  <label>
-                    <input type="radio" name="tls" value="true" v-model="tls" checked />
-                    true
-
-                    <input type="radio" name="tls" value="false" v-model="tls" />
-                    false
-                  </label>
-                </div>
-              </div>
-
-              <div class="field">
-                <label class="label">{{ $t('main.host') }}</label>
-                <div class="control">
-                  <input class="input" type="text" :placeholder="$t('main.hostPlaceholder')"
-                    v-model="host">
-                </div>
-              </div>
+              
 
               <button class="button is-primary" :class="{ 'is-loading': isLoading }" :disabled="isLoading">
                 {{ isLoading ? $t('main.checking') : $t('main.submit') }}
